@@ -128,6 +128,7 @@ final class StaticWordLibrary extends WordLibrary {
      * Singleton class.
      */
     private StaticWordLibrary() {
+        System.out.println("Constructor (programador A)");
     }
 
     /**
