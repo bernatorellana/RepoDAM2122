@@ -17,8 +17,7 @@
  * under the License.
  */
 
-/* Anagram Game Application */
-
+ /* Anagram Game Application */
 package com.toy.anagrams.lib;
 
 /**
@@ -121,22 +120,24 @@ final class StaticWordLibrary extends WordLibrary {
         "nuisngde",
         "rtdatioialn"
     };
-    
+
     final static WordLibrary DEFAULT = new StaticWordLibrary();
 
     /**
      * Singleton class.
      */
     private StaticWordLibrary() {
-		
-		int i=0;
-		for(int n=0;n<i;n++) {
-		}
-		
+        System.out.println("Constructor (programador A)");
+
+        int i = 0;
+        for (int n = 0; n < i; n++) {
+        }
+
     }
 
     /**
      * Gets the word at a given index.
+     *
      * @param idx index of required word
      * @return word at that index in its natural form
      */
@@ -146,6 +147,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     /**
      * Gets the word at a given index in its scrambled form.
+     *
      * @param idx index of required word
      * @return word at that index in its scrambled form
      */
@@ -155,6 +157,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     /**
      * Gets the number of words in the library.
+     *
      * @return the total number of plain/scrambled word pairs in the library
      */
     public int getSize() {
@@ -163,6 +166,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     /**
      * Checks whether a user's guess for a word at the given index is correct.
+     *
      * @param idx index of the word guessed
      * @param userGuess the user's guess for the actual word
      * @return true if the guess was correct; false otherwise
