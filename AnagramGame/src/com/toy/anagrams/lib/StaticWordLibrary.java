@@ -128,6 +128,11 @@ final class StaticWordLibrary extends WordLibrary {
      * Singleton class.
      */
     private StaticWordLibrary() {
+		
+		int i=0;
+		for(int n=0;n<i;n++) {
+		}
+		
     }
 
     /**
