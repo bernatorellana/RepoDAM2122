@@ -26,6 +26,7 @@ package com.toy.anagrams.lib;
  */
 final class StaticWordLibrary extends WordLibrary {
 
+	// Comentari branca Bernat
     private static final String[] WORD_LIST = {
         "abstraction",
         "ambiguous",
