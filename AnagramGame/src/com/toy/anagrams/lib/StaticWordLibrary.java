@@ -133,6 +133,7 @@ final class StaticWordLibrary extends WordLibrary {
      */
     private StaticWordLibrary() {
         System.out.println("Constructor (programador A)");
+		System.out.println("Constructor (Branca Bernat)");
     }
 
     /**
