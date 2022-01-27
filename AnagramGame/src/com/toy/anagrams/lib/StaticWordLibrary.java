@@ -124,6 +124,9 @@ final class StaticWordLibrary extends WordLibrary {
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
 
+	public void hola(){
+	}
+
     /**
      * Singleton class.
      */
